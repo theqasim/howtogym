@@ -1,0 +1,46 @@
+body {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+
+/* div {
+    border: 1px solid black;
+} */
+
+.workout-tile {
+    max-width: 500px;
+    overflow: hidden;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.38);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    margin: 0 0 1em;
+    flex-direction: column;
+    background-color: #2a2e35;
+}
+
+.row-max-3 {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 500px));
+    justify-content: space-evenly;
+}
+
+.workout-content {
+    padding: 1em;
+}
+
+.workout-page-upper {
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+}
